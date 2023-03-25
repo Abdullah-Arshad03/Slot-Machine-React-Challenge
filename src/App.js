@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React from "react";
+import { SlotMachine } from "./SlotMachine";
+import { Heading } from "./Heading";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// following are the emojis used in Slot Machine app
+let santa = "🎅";
+let glass = "🥂";
+let glasses = "😎";
+let cake = "🍰";
+let smile = "😄";
 
-export default App;
+const App = () => {
+  return (
+    <>
+      <Heading />
+      <div className="slotmachine">
+        <SlotMachine emoji1={smile} emoji2={smile} emoji3={smile} />
+        <SlotMachine emoji1={cake} emoji2={cake} emoji3={santa} />
+        <SlotMachine emoji1={glass} emoji2={glass} emoji3={glass} />
+        <SlotMachine emoji1={glasses} emoji2={smile} emoji3={cake} />
+      </div>
+    </>
+  );
+};
+export { App };
