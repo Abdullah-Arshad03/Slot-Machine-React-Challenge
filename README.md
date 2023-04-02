@@ -1,3 +1,15 @@
+
+# Slot-Machine-React-Challenge
+It is a React code Challenge . It was fun and yet great Hands on practice for me to understand more React Concepts.
+
+
+## 🚀 About Me
+A software engineering undergraduate student at Air University, Islamabad, I have developed expertise in web development, with a focus on HTML5, CSS3, Bootstrap, JavaScript, and React JS
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdullah-bin-arshad-6111a4241/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
