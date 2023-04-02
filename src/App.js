@@ -25,6 +25,8 @@ const App = () => {
         <hr />
         <SlotMachine emoji1={glasses} emoji2={smile} emoji3={cake} />
         <hr />
+        <SlotMachine emoji1={glasses} emoji2={glasses} emoji3={glasses} />
+        <hr />
       </div>
 
       <Footer/>
